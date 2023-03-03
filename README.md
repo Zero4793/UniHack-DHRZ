@@ -1,4 +1,4 @@
-# UniHack-DHRZ
+# UniHack-Pay The Syntax
 
 #TODO
 1. a website
