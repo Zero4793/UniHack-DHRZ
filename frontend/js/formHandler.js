@@ -53,11 +53,11 @@ function addQuestions(promptArray, idArray) {
     "<label for='q1'>"+promptArray[i]+"</label>\
     <p>\
     No\
-      <input type='radio' name='"+idArray[i]+"' id='"+idArray[i]+"' value=1>\
-      <input type='radio' name='"+idArray[i]+"' id='"+idArray[i]+"' value=2>\
-      <input type='radio' name='"+idArray[i]+"' id='"+idArray[i]+"' value=3>\
-      <input type='radio' name='"+idArray[i]+"' id='"+idArray[i]+"' value=4>\
-      <input type='radio' name='"+idArray[i]+"' id='"+idArray[i]+"' value=5>\
+      <input type='radio' name='"+idArray[i]+"' value=1>\
+      <input type='radio' name='"+idArray[i]+"' value=2>\
+      <input type='radio' name='"+idArray[i]+"' value=3>\
+      <input type='radio' name='"+idArray[i]+"' value=4>\
+      <input type='radio' name='"+idArray[i]+"' value=5>\
     Yes\
     </p>";
     $("#questionArea").append(htmlString);
