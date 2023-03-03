@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <title>The psychological tool</title>
+  <meta name="description" content="Psychological tool">
+  <meta name="keywords" content="hackathon UNIHACK">
+  <meta name="author" content="Pay the Syntax">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/universal.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  <script type="text/javascript" src="js/formHandler.js"></script>
+
+</head>
+
+<body>
+  <h1>Prototype form</h1>
+  <div id="myForm" class="myForm">
+
+    <!-- Questions should be auto added by javascript file -->
+    <div id="questionArea"></div>
+
+      <p>
+        <label for="someText">Text: </label>
+        <input type="text" name="someText" id="someText" value="Default"><br>
+      </p>
+
+      <p>
+        <label for="numCats">Number of cats: </label>
+        <select name="numCats" id="numCats">
+          <option value="0">Zero</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option selected value="4">Four+</option>
+        </select>
+      </p>
+
+      <p>  
+        <button id="submit" onclick="mySubmit()">Submit answers</button>
+      </p>
+  </div>
+  <div id="testArea"></div>
+
+</body>
+</html>

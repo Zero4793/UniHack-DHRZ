@@ -1,0 +1,4 @@
+{
+  "promptArray": ["Are you happy?", "Do you cry?", "Do you laugh?"],
+  "idArray": ["happy", "cry", "laugh"]
+}
