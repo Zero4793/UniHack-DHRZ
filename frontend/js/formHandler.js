@@ -1,6 +1,6 @@
 // We should get the question details from somewhere
-const promptArray = Array("Are you happy?", "Do you cry?", "Do you laugh?");
-const idArray = Array("happy", "cry", "laugh");
+const promptArray = Array("Are you happy?", "Do you cry?", "Do you laugh?","Are you concerned about AI development?");
+const idArray = Array("happy", "cry", "laugh", "fearAI");
 
 $(window).on("load", function() {
   addQuestions(promptArray, idArray);
