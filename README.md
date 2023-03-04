@@ -17,10 +17,11 @@ node server.js
 
 # TODO
 1. a website - started
-2. Questions and answering stuff (dan)
-2. a likert style selection button
-3. save the data to a database
-4. visualise it on the website
+2. Presentation
+3. Landing page
+4. Psychometirc survey form-page and data entry
+5. Input to database
+6. Output data as a visualisation
 
 
 ## Further comments / pondering. Change/delete me at will
