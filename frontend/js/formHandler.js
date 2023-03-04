@@ -40,7 +40,7 @@ function makeJSON() {
   myJSON["age"] = $("#age").val();
   myJSON["email"] = $("#email").val();
   $('input:checked').each(function(index, value){
-    myJSON[this.id] = this.value;
+    myJSON[this.name] = this.value;
   });
   return myJSON;
 }
@@ -52,7 +52,7 @@ function addQuestions(promptArray, idArray) {
   }
   for (let i = 0; i<promptArray.length; i++) {
     let htmlString =
-    "<label for='q1'>"+promptArray[i]+"</label>\
+    "<label for='q"+i+"'>"+promptArray[i]+"</label>\
     <p>\
     No\
       <input type='radio' name='"+idArray[i]+"' value=1>\
