@@ -1,5 +1,20 @@
 # UniHack-Pay The Syntax
 
+# Instructions for db
+```bash
+cd backend && docker-compose up -d
+```
+
+Install node dependencies
+```bash
+npm install mysql2 express body-parser
+```
+
+Run app
+```bash
+node server.js
+```
+
 # TODO
 1. a website - started
 2. Questions and answering stuff (dan)
