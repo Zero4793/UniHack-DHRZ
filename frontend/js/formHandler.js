@@ -7,17 +7,17 @@ $(window).on("load", function() {
 });
 
 function mySubmit() {
-/*  $.ajax({
+  $.ajax({
     method: "POST",
-    url: ""
+    url: "http://127.0.0.1:3000/customers",
     data: makeJSON(),
     dataType: "json"
 
   }).done(function(data) {
-
+    $("#testArea").html(JSON.stringify(makeJSON())); 
   }).fail(function(data) {
     addError("Error: response code "+data.status);
-  });*/
+  });
   if (!validate()) {
     console.log("Errors");
     return;
@@ -35,8 +35,10 @@ function validate() {
 function makeJSON() {
   // Turn all the form input into a nice format for http request
   let myJSON = {};
-  myJSON["someText"] = $("#someText").val();
-  myJSON["numCats"] = $("#numCats").val();
+  myJSON["fname"] = $("#fname").val();
+  myJSON["lname"] = $("#lname").val();
+  myJSON["age"] = $("#age").val();
+  myJSON["email"] = $("#email").val();
   $('input:checked').each(function(index, value){
     myJSON[this.id] = this.value;
   });
