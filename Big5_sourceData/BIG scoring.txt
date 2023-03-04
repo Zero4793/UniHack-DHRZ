@@ -1,0 +1,99 @@
+Big5 scoring needs to be scored by summing the data points for each set. Then the data can be presented.
+
+Scoring:
+BFI scale scoring (“R” denotes reverse-scored items):
+Extraversion: 1, 6R, 11, 16, 21R, 26, 31R, 36
+Agreeableness: 2R, 7, 12R, 17, 22, 27R, 32, 37R, 42
+Conscientiousness: 3, 8R, 13, 18R, 23R, 28, 33, 38, 43R
+Neuroticism: 4, 9R, 14, 19, 24R, 29, 34R, 39
+Openness: 5, 10, 15, 20, 25, 30, 35R, 40, 41R, 44
+
+Questions
+
+Talks a lot
+
+Notices other people’s weak points
+
+Does things carefully and completely
+
+Is sad, depressed
+
+Is original, comes up with new ideas
+
+Keeps their thoughts to themselves
+
+Is helpful and not selfish with others
+
+Can be kind of careless
+
+Is relaxed, handles stress well
+
+Is curious about lots of different things
+
+Has a lot of energy
+
+Starts arguments with others
+
+Is a good, hard worker
+
+Can be tense; not always easy going
+
+Clever; thinks a lot
+
+Makes things exciting
+
+Forgives others easily
+
+Isn’t very organized
+
+Worries a lot
+
+Has a good, active imagination
+
+Tends to be quiet
+
+Usually trusts people
+
+Tends to be lazy
+
+Doesn’t get upset easily; steady
+
+Is creative and inventive
+
+Has a good, strong personality
+
+Can be cold and distant with others
+
+Keeps working until things are done
+
+Can be moody
+
+Likes artistic and creative experiences
+
+Is kind of shy
+
+Kind and considerate to almost everyone
+
+Does things quickly and carefully
+
+Stays calm in difficult situations
+
+Likes work that is the same every time
+
+Is outgoing; likes to be with people
+
+Is sometimes rude to others
+
+Makes plans and sticks to them
+
+Get nervous easily
+
+Likes to think and play with ideas
+
+Doesn’t like artistic things (plays, music)
+
+Likes to cooperate; goes along with others
+
+Has trouble paying attention
+
+Knows a lot about art, music and books
