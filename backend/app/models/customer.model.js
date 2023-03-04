@@ -6,6 +6,10 @@ const Customer = function(customer) {
   this.lname = customer.lname;
   this.age = customer.age;
   this.email = customer.email;
+  this.happy = customer.happy;
+  this.cry = customer.cry;
+  this.laugh = customer.laugh;
+  this.fearAI = customer.fearAI;
 };
 
 Customer.create = (newCustomer, result) => {

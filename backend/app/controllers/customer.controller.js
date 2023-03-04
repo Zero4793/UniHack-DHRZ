@@ -14,6 +14,10 @@ exports.create = (req, res) => {
       lname: req.body.lname,
       age: req.body.age,
       email: req.body.email,
+      happy: req.body.happy,
+      cry: req.body.cry,
+      laugh: req.body.laugh,
+      fearAI: req.body.fearAI
     });
   
     // Save Customer in the database

@@ -19,7 +19,11 @@ connection.connect(error => {
                     fname varchar(255) not null,
                     lname varchar(255) not null,
                     age int not null,
-                    email varchar(255) not null
+                    email varchar(255) not null,
+                    happy int,
+                    cry int,
+                    laugh int,
+                    fearai int
                 )`;
   connection.query(table, function(err, results, fields) {
     if (err) {
