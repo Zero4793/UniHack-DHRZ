@@ -19,3 +19,11 @@
   width: 30%;
   text-align: left;
 }
+
+#summary h1 {
+  margin-top: 2rem;
+}
+
+#summary {
+  margin-bottom: 3rem;
+}
