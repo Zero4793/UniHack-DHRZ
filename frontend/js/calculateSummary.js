@@ -7,12 +7,6 @@ const Qnum = 44;  // Number of questions
 
 
 async function scoreFromJSON(input) {
-  let ExtroversionScore = 0;
-  let AgreeablenessScore = 0;
-  let ConscientiousnessScore = 0;
-  let NeuroticismScore = 0;
-  let OpennessScore = 0;
-
   let scores = Array(0,0,0,0,0)
 
   const scoringArrays = Array(Extroversion, Agreeableness, Conscientiousness, Neuroticism, Openness)

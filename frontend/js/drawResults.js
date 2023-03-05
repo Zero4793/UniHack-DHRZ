@@ -28,19 +28,19 @@ function draw5(attributes) {
   }
 
   summaryText = 
-  "<h1 style='background: #70a0b0;'>Openness ("+attributes[0]+"%):</h1>\
+  "<h1 style='background: #70a0b0;'>Extroversion ("+attributes[0]+"%):</h1>\
   <p>\Abstract, intellectual rather than concrete and traditional.\</p>\
 \
-    <h1 style='background: #a070b0;'>Conscientiousness ("+attributes[1]+"%):</h1>\
+    <h1 style='background: #a070b0;'>Agreeableness ("+attributes[1]+"%):</h1>\
     <p> Disciplined rather than impulsive.</p>\
 \
-    <h1 style='background: #c09070;'>Extraversion("+attributes[2]+"%):</h1>\
+    <h1 style='background: #c09070;'>Conscientiousness("+attributes[2]+"%):</h1>\
     <p> Seek stimulation from outside and attention rather than conserving energy.</p>\
 \
-    <h1 style='background: #90c060;'>Agreeableness ("+attributes[3]+"%):</h1>\
+    <h1 style='background: #90c060;'>Neuroticism ("+attributes[3]+"%):</h1>\
     <p>Put others needs first and cooperate rather than win/lose.</p>\
 \
-    <h1 style='background: #b0a040;'>Neuroticism ("+attributes[4]+"%): </h1>\
+    <h1 style='background: #b0a040;'>Openness ("+attributes[4]+"%): </h1>\
     <p> Tendency to experience negative emotions, react rather than move on.</p>"
 
   $("#summary").html(summaryText);
