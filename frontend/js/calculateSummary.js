@@ -24,7 +24,7 @@ async function scoreFromJSON(input) {
       if (question<0) question *= -1;
       if (!input[question] ) {
         console.log("No answer for question "+question);
-        //return;
+        return false;
       }
       let thisScore = input[question]
       if (Extroversion[i]<0) {
@@ -38,4 +38,5 @@ async function scoreFromJSON(input) {
   }
   console.log(scores)
   draw5(scores)
+  return true;
 }

@@ -4,9 +4,6 @@ $(window).on("load", async function() {
   canvas.width = 640;
   canvas.height = 640;
   g = canvas.getContext('2d');
-  console.log("loaded")
-  draw5(Array(68, 42, 75, 33, 100));
-  console.log("drawn");
 });
 
 function draw5(attributes) {

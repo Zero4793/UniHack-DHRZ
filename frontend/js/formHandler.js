@@ -26,7 +26,9 @@ async function mySubmit() {
 
   // Has the side effect of drawing our chart/summary,
   // hacky and relies on HTML elements existing
-  scoreFromJSON(makeJSON());
+  if (!scoreFromJSON(makeJSON())){
+    console.log("Failed to draw");
+  }
 }
 
 
@@ -56,8 +58,9 @@ function addQuestions(promptArray, idArray) {
   }
   for (let i = 0; i<promptArray.length; i++) {
     let htmlString =
-    "<label for='q"+i+"'>"+promptArray[i]+"</label>\
-    <p>\
+    "<p class='question'>\
+    <label for='q"+i+"'>"+promptArray[i]+"</label>\
+    <likert>\
     No\
       <input type='radio' name='"+idArray[i]+"' value=1>\
       <input type='radio' name='"+idArray[i]+"' value=2>\
@@ -65,6 +68,7 @@ function addQuestions(promptArray, idArray) {
       <input type='radio' name='"+idArray[i]+"' value=4>\
       <input type='radio' name='"+idArray[i]+"' value=5>\
     Yes\
+    </likert>\
     </p>";
     $("#questionArea").append(htmlString);
   }
