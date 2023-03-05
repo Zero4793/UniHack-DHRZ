@@ -1,13 +1,13 @@
-// We should get the question details from somewhere
-const promptArray = Array("Are you happy?", "Do you cry?", "Do you laugh?","Are you concerned about AI development?");
-const idArray = Array("happy", "cry", "laugh", "fearAI");
+// We should get promptArray and idArray from webpage from questions.js
+console.log(promptArray)
+console.log(idArray.length)
 
 $(window).on("load", function() {
   addQuestions(promptArray, idArray);
 });
 
 function mySubmit() {
-  $.ajax({
+  /*$.ajax({
     method: "POST",
     url: "http://127.0.0.1:3000/customers",
     data: makeJSON(),
@@ -16,13 +16,14 @@ function mySubmit() {
   }).done(function(data) {
     $("#testArea").html(JSON.stringify(makeJSON())); 
   }).fail(function(data) {
-    addError("Error: response code "+data.status);
-  });
+    //addError("Error: response code "+data.status);
+  });*/
   if (!validate()) {
     console.log("Errors");
     return;
   }
   $("#testArea").html(JSON.stringify(makeJSON())); 
+  scoreFromJSON(makeJSON());
 }
 
 
