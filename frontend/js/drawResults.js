@@ -9,7 +9,8 @@ $(window).on("load", async function() {
   console.log("drawn");
 });
 
-async function draw5(attributes) {
+function draw5(attributes) {
+  console.log(attributes);
   g.clearRect(0, 0, canvas.width, canvas.height);
   g.fillStyle = '#BECFEA';
   g.fillRect(0, 0, 640, 640);

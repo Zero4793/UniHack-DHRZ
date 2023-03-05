@@ -6,7 +6,7 @@ const Openness = Array(5, 10, 15, 20, 25, 30, -35, 40, -41, 44)
 const Qnum = 44;  // Number of questions
 
 
-function scoreFromJSON(input) {
+async function scoreFromJSON(input) {
   let ExtroversionScore = 0;
   let AgreeablenessScore = 0;
   let ConscientiousnessScore = 0;
@@ -32,6 +32,10 @@ function scoreFromJSON(input) {
       }
       scores[a] += parseInt(thisScore);
     }
+    scores[a] -= dimension.length
+    const max = 4*dimension.length
+    scores[a] = scores[a]/max*100
   }
   console.log(scores)
+  draw5(scores)
 }

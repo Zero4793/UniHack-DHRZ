@@ -6,7 +6,7 @@ $(window).on("load", function() {
   addQuestions(promptArray, idArray);
 });
 
-function mySubmit() {
+async function mySubmit() {
   /*$.ajax({
     method: "POST",
     url: "http://127.0.0.1:3000/customers",
@@ -22,7 +22,10 @@ function mySubmit() {
     console.log("Errors");
     return;
   }
-  $("#testArea").html(JSON.stringify(makeJSON())); 
+  //$("#testArea").html(JSON.stringify(makeJSON()));
+
+  // Has the side effect of drawing our chart/summary,
+  // hacky and relies on HTML elements existing
   scoreFromJSON(makeJSON());
 }
 
