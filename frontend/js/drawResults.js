@@ -14,7 +14,7 @@ function draw5(attributes) {
 
   // width of one bar
   let width = (canvas.width-20)/5;
-
+  let colours = Array("#70a0b0", "#a070b0", "#c09070", "#90c060", "#b0a040" )
   for (let i = 0; i < 5;i++) {
     let thisX = width*i;
     let height =  ((canvas.height-10) * (attributes[i]/100));
@@ -22,7 +22,7 @@ function draw5(attributes) {
     let red = 50*i;
     let green = (101*i)%255
     let blue = 255 - (50*i)
-    g.fillStyle = "#ffffff";
+    g.fillStyle = colours[i];
     g.fillRect(15+i*width, canvas.height - height, width-10, height-10);
       
   }
