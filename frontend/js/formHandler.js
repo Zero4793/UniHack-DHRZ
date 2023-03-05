@@ -1,6 +1,4 @@
 // We should get promptArray and idArray from webpage from questions.js
-console.log(promptArray)
-console.log(idArray.length)
 
 $(window).on("load", function() {
   addQuestions(promptArray, idArray);

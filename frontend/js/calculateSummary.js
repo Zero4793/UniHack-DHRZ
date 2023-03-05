@@ -30,7 +30,6 @@ async function scoreFromJSON(input) {
     const max = 4*dimension.length
     scores[a] = parseInt(scores[a]/max*100)
   }
-  console.log(scores)
   draw5(scores)
   return true;
 }
